@@ -1,6 +1,6 @@
 # Stock Market Algotrading
 
 ## Authors
-Rene Villarreal /n
-Xiomara Chirinos /n
+Rene Villarreal <br>
+Xiomara Chirinos <br>
 Mariah Bastos
