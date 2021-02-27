@@ -38,6 +38,7 @@ This is a common approach to day-trading. The main purpose of this model is to g
 
 ## Instructions
 In order to run the codes in our folders, you will need the following libraries: <br>
+<br>
 tidyverse: with this library we used mostly dplyr for cleaning up our data. <br>
 jsonlite: this is mostly used to read the JSON messsages whenever we execute a trade and to access our budget. <br>
 riingo: we used this package to pull data from Tiingo using our API key. <br>
