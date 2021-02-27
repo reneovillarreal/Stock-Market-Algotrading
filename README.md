@@ -1,7 +1,7 @@
 # Stock Market Algotrading
 
 ## Authors
-Rene Villarreal <br>
+[Rene Villarreal](https://github.com/reneovillarreal/) <br>
 Xiomara Chirinos <br>
 Mariah Bastos
 <br>
@@ -39,11 +39,11 @@ This is a common approach to day-trading. The main purpose of this model is to g
 ## Instructions
 In order to run the codes in our folders, you will need the following libraries: <br>
 <br>
-tidyverse: with this library we used mostly dplyr for cleaning up our data. <br>
-jsonlite: this is mostly used to read the JSON messsages whenever we execute a trade and to access our budget. <br>
-riingo: we used this package to pull data from Tiingo using our API key. <br>
-zoo: we included this package in the library set to use the lag function. <br>
-TTR: this package was used to create the simple and exponential moving averages. <br>
-lubridate: manipulate dates and timestamps. <br>
+**tidyverse**: with this library we used mostly dplyr for cleaning up our data. <br>
+**jsonlite**: this is mostly used to read the JSON messsages whenever we execute a trade and to access our budget. <br>
+**riingo**: we used this package to pull data from Tiingo using our API key. <br>
+**zoo**: we included this package in the library set to use the lag function. <br>
+**TTR**: this package was used to create the simple and exponential moving averages. <br>
+**lubridate**: manipulate dates and timestamps. <br>
 <br>
 The R scripts can be taken directly from our folders and run in R. Please note that since the market is closed and we currently all have a negative balance, you will not be able to execute a successful buy or sell.
