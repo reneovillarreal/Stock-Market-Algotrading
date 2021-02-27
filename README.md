@@ -2,7 +2,7 @@
 
 ## Authors
 [Rene Villarreal](https://github.com/reneovillarreal/) <br>
-Xiomara Chirinos <br>
+[Xiomara Chirinos](https://github.com/xiochirinos) <br>
 Mariah Bastos
 <br>
 
