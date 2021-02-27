@@ -33,4 +33,16 @@ Similar to the one above, it generates the same signals when a shorter moving av
 <br>
 
 ***Scalping***: <br>
-This is a common approach to day-trading. The main purpose of this model is to generate small profits whenever the stock rises above the buying price. Generally, the profits are not big, but the idea is that with the sum of small profits you can eventually make enough. This model carries lower risk than the exponential moving average and the simple moving average because it is strictly based on the price of the stock at the moment, and not it's history.
+This is a common approach to day-trading. The main purpose of this model is to generate small profits whenever the stock rises above the buying price. Generally, the profits are not big, but the idea is that with the sum of small profits you can eventually make enough. This model carries lower risk than the exponential moving average and the simple moving average because it is strictly based on the price of the stock at the moment, and not it's history. <br>
+<br>
+
+## Instructions
+In order to run the codes in our folders, you will need the following libraries: <br>
+tidyverse: with this library we used mostly dplyr for cleaning up our data. <br>
+jsonlite: this is mostly used to read the JSON messsages whenever we execute a trade and to access our budget. <br>
+riingo: we used this package to pull data from Tiingo using our API key. <br>
+zoo: we included this package in the library set to use the lag function. <br>
+TTR: this package was used to create the simple and exponential moving averages. <br>
+lubridate: manipulate dates and timestamps. <br>
+<br>
+The R scripts can be taken directly from our folders and run in R. Please note that since the market is closed and we currently all have a negative balance, you will not be able to execute a successful buy or sell.
